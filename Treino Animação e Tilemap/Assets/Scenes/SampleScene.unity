@@ -2095,7 +2095,7 @@ GameObject:
   - component: {fileID: 409043577}
   m_Layer: 0
   m_Name: character_femaleAdventurer_sheet_0
-  m_TagString: Untagged
+  m_TagString: Jogador
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3695,7 +3695,7 @@ GameObject:
   - component: {fileID: 1498102038}
   - component: {fileID: 1498102040}
   m_Layer: 0
-  m_Name: Spawnar Diamante
+  m_Name: SpawnarDiamante
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
