@@ -18,7 +18,8 @@ public class UIManager : MonoBehaviour
         diamanteTexto.text = "Diamantes: " + spawnarDiamante.diamantesColetados.ToString();
 
         //Atualiza o timer.
-        timerTexto.text = spawnarDiamante.timer.ToString();
+        timerTexto.text = string.Format("{0:00}", spawnarDiamante.timer);
+            //spawnarDiamante.timer.ToString("F2");
 
     }
 }

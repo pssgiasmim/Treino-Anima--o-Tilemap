@@ -3297,7 +3297,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 8
-      m_TileSpriteIndex: 8
+      m_TileSpriteIndex: 13
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -3704,8 +3704,8 @@ Tilemap:
     m_Data: {fileID: 0}
   - m_RefCount: 2
     m_Data: {fileID: 430462308, guid: 593bdd602e53c5245a12c364b5254c93, type: 3}
-  - m_RefCount: 1
-    m_Data: {fileID: 243371551, guid: 593bdd602e53c5245a12c364b5254c93, type: 3}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
   - m_RefCount: 2
     m_Data: {fileID: -1610825595, guid: 593bdd602e53c5245a12c364b5254c93, type: 3}
   - m_RefCount: 7
@@ -3714,8 +3714,8 @@ Tilemap:
     m_Data: {fileID: 177821618, guid: 593bdd602e53c5245a12c364b5254c93, type: 3}
   - m_RefCount: 4
     m_Data: {fileID: 1200937881, guid: 593bdd602e53c5245a12c364b5254c93, type: 3}
-  - m_RefCount: 0
-    m_Data: {fileID: 0}
+  - m_RefCount: 1
+    m_Data: {fileID: 243371551, guid: 593bdd602e53c5245a12c364b5254c93, type: 3}
   - m_RefCount: 2
     m_Data: {fileID: 23892347, guid: 593bdd602e53c5245a12c364b5254c93, type: 3}
   - m_RefCount: 2
@@ -4363,7 +4363,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.62995434, y: 0.7543961}
+  m_Offset: {x: 0.3334918, y: 0.38381743}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -4374,7 +4374,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 17.871195, y: 8.353871}
+  m_Size: {x: 16.784164, y: 7.6127143}
   m_EdgeRadius: 0
 --- !u!4 &1498102039
 Transform:
@@ -4407,6 +4407,7 @@ MonoBehaviour:
   contadorDiamantes: 10
   tempoLimite: 60
   timer: 0
+  diamantesColetados: 0
 --- !u!1 &1498219670
 GameObject:
   m_ObjectHideFlags: 0
