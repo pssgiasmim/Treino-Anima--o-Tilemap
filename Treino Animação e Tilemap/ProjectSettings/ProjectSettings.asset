@@ -626,8 +626,8 @@ PlayerSettings:
   apiCompatibilityLevelPerPlatform: {}
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
-  metroPackageName: "Treino Anima\xE7\xE3o e Tilemap"
-  metroPackageVersion: 
+  metroPackageName: 
+  metroPackageVersion: 1.0.0.0
   metroCertificatePath: 
   metroCertificatePassword: 
   metroCertificateSubject: 
@@ -635,7 +635,7 @@ PlayerSettings:
   metroCertificateNotAfter: 0000000000000000
   metroApplicationDescription: "Treino Anima\xE7\xE3o e Tilemap"
   wsaImages: {}
-  metroTileShortName: 
+  metroTileShortName: "Treino Anima\xE7\xE3o e Tilemap"
   metroTileShowName: 0
   metroMediumTileShowName: 0
   metroLargeTileShowName: 0
