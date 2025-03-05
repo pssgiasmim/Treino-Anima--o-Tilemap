@@ -7,8 +7,8 @@ public class PlayerController : MonoBehaviour
     private Animator animator; //Referência para o animator do personagem.
     private Rigidbody2D rigidbody2d; //Referência para o rigidbody2d do personagem.
     public float speed = 5f; //Velocidade de movimento.
-    public float jumpForce = 7f; //Força do pulo.
-    private bool isGrounded = true; //Verifica se o personagem está no chão.
+    public float jumpForce = 10f; //Força do pulo.
+    public bool isGrounded = true; //Verifica se o personagem está no chão.
     private SpriteRenderer spriteRenderer; //Cuida da escala do personagem.
 
     // Start é chamado antes do primeiro frame de Update. 
