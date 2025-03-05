@@ -8,7 +8,7 @@ public class SpawnarDiamante : MonoBehaviour
     public int contadorDiamantes = 10; //Quantidade inicial de diamantes na cena.
     public float tempoLimite = 60f; //Tempo inicial de jogo.
     public float timer; //Timer onde aparece o tempo
-    private int diamantesColetados = 0; //Registro de quantos diamantes foram pegos.
+    public int diamantesColetados = 0; //Registro de quantos diamantes foram pegos.
 
     void Start()
     {
@@ -65,7 +65,7 @@ public class SpawnarDiamante : MonoBehaviour
     //Referência o game over
     void GameOver()
     {
-        Debug.Log("Game Over !!! Criar tela depois.");
+        Debug.Log("Game Over !!!");
         //Depois chamar a tela de game over.
     }
         
